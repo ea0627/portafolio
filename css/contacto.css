@@ -1,0 +1,92 @@
+.formcontato{
+    background-color: #EAF2FD;
+    width: auto;
+    padding: 15px;
+}
+
+.formcontato .formcontato__contacto .formcontato__img{ /*Oculto imagen*/
+    display: none;
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__title{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 15px;    
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__subtext{
+    font-size: 16px;
+    padding-bottom: 15px;    
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__input{
+    width: 100%;
+    height: 56px;
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__textarea{
+    width: 100%;
+    height: 133px;   
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__botao{
+    background-color: #007bff; border: 2px solid #007bff;
+    font-weight: bold;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    /* border-color: #2A7AE4; */
+    /* border: 2px solid; */
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__botao:hover { /*Efecto sobre el boton*/
+    background: white; 
+    color: #007bff;
+}
+
+.footer{
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (min-width: 834px) and (max-width: 1439px){
+
+    .formcontato .formcontato__contacto .formcontato__text .formcontato__form{
+        gap: 32px;
+    }
+
+    .formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__input{
+        width: 100%;
+        /* height: 56px; */
+    }
+    
+    .formcontato .formcontato__contacto .formcontato__text .formcontato__form .formcontato__textarea{
+        width: 100%;
+        /* height: 133px;    */
+    }
+}
+
+@media (min-width:1440px){
+
+    .formcontato .formcontato__contacto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .formcontato .formcontato__contacto .formcontato__img{ /*muestra imagen*/
+        display:inline;
+    }
+}

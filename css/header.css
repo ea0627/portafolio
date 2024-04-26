@@ -1,0 +1,290 @@
+/*modo mobile*/
+.tudo {
+    color: #464646;
+}
+.tudo .menu{
+    padding: 10px;
+    display: flex;  /*Alinea lementos a los lados de c/u*/
+    justify-content: space-between; /*Ajusta el espacio de los elementos*/
+    align-items: center; /*los alinea a todos los elementos en el centro de .menu_header*/
+}
+
+.tudo .menu .menu__title{
+    font-weight: bold;
+}
+
+.tudo .menu .menu__header{
+    display: flex;  /*Alinea lementos a los lados de c/u*/
+    justify-content: space-between; /*Ajusta el espacio de los elementos*/
+    align-items: center; /*los alinea a todos los elementos en el centro de .menu_header*/
+    gap: 10px
+}
+
+.tudo .menu .menu__header img{
+    width: 24px;
+    height: 24px;
+}
+
+.tudo .menu .menu__header .menu__title{
+    font-size: 16px;
+}
+
+.tudo .menu .menu__header .menu__contato{
+    display: none;
+}
+
+
+.menu__list__item:nth-child(1),
+.menu__list__item:nth-child(2),
+.menu__list__item:nth-child(3),
+.menu__list__item:nth-child(4),
+.menu__list__item:nth-child(5){
+    display: none;
+    font-size: 14PX;
+    color: #464646;
+}
+
+.title__profile{
+    width: 98px;
+    height: 98px;
+}
+
+.title .title__div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.title .title__div .title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title .title__div .title__container .title__bio{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.title .title__div .title__container .title__subsection{
+    font-size: 15px;
+}
+
+.title__network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__network__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*Para tablets*/
+@media (min-width: 834px) and (max-width: 1439px){
+    .tudo{
+        padding: 30px;
+    }
+
+    .tudo .menu .menu__header{
+        /* width: auto; */
+        padding: 15px;
+        display: flex;
+    }
+
+    .tudo .menu .menu__header img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .tudo .menu .menu__header .menu__title{
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+        color: #464646;
+    }
+
+    .tudo .menu .menu__list{
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .title .title__div {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        padding: 15px;
+        flex-direction: row-reverse;
+    }
+
+    .title .title__div .title__container{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .title .title__div .title__container .title__subsection{
+        text-align: justify;
+    }
+
+    .title .title__div .title__container .title__network{
+        font-size: 20px;
+    }
+
+    .title .title__div .title__container#imagen{
+        justify-content: center;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .title .title__div .title__container .title__bio{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .title .title__div .title__container .title__subsection{
+        font-size: 25px;
+    }
+
+    .title .title__div .title__profile{  /*imagen de perfil*/
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .title__div{
+        /* background-color: cadetblue; */
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .title__div .title__container{
+        padding: 10px;
+        /* background-color: aqua; */
+    }
+
+    .title__div .title__container .title__network{
+        /* background-color: blueviolet; */
+        padding-left:0;
+        
+    }
+}
+
+
+/*Para PC*/
+@media (min-width:1440px){
+    .tudo{
+        gap: 32px;
+        justify-content: center;
+    }
+    
+    .tudo .menu{
+        padding: 15px 10%;
+        width: auto;    
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .tudo .menu .menu__header{
+        width: auto;
+        padding: 15px;
+        justify-content: flex-start;
+    }
+
+    .tudo .menu .menu__header img{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .tudo .menu__list{
+        width: auto;
+        
+        display: flex; /*Aparece menu oculto*/
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;   
+    }
+
+    .tudo .menu .menu__header .menu__title{
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+        color: #464646;
+    }
+
+    .menu__list__item:nth-child(1),
+    .menu__list__item:nth-child(2),
+    .menu__list__item:nth-child(3),
+    .menu__list__item:nth-child(4),
+    .menu__list__item:nth-child(5){
+        display: flex;
+        font-size: 20px; 
+    }
+
+    .title .title__div{
+        /* background-color: cadetblue; */
+        padding: 15px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .title .title__div .title__profile{  /*imagen de perfil*/
+        width: 368px;
+        height: 368px;
+        padding: 10px;
+    }
+
+    .title__div{
+        /* background-color: cadetblue; */
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .title__div .title__container{
+        padding: 10px;
+        /* background-color: aqua; */
+    }
+
+    .title .title__div .title__container .title__bio{
+        /* background-color: aliceblue; */
+        font-size: 45px;
+        font-weight: bold
+    }
+
+    .title .title__div .title__container .title__subsection{
+        font-size: 30px;
+    }
+
+    .title__div .title__container .title__subsection{
+        /* background-color: aliceblue; */
+        font-size: 25px;
+    }
+
+    .title__div .title__container .title__network{
+        /* background-color: blueviolet; */
+        justify-content:left;
+        font-size: 22px;
+        padding-left:0;
+        gap: 32px;
+    }
+
+}

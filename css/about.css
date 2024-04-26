@@ -1,0 +1,74 @@
+/* Modo Mobile */
+.about{
+    padding: 15px 10%;
+    width: auto;
+    background-color: #EAF2FD;
+    color: #464646;
+    padding: 15px;
+    gap: 15px;
+}
+
+.about .about__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.about .about__container .about__title{
+    font-size: 22px;
+    font-weight: bold;
+    gap: 15px;
+}
+
+.about .about__container p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* para tablets */
+
+@media (min-width: 834px) and (max-width: 1439px){
+    .about{
+        width: auto;
+        padding: 15px;
+    }
+    
+    .about .about__container{
+        padding: 15px 0;
+    }
+
+    .about .about__container .about__title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .about .about__container p{
+        font-size: 25px;;
+    }
+
+}
+
+/* para PC */
+
+@media (min-width:1440px){
+    .about{
+        width: auto;
+        padding: 15px 10%;
+    }
+    
+    .about .about__container .about__title{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    .about .about__container p{
+        font-size: 30px;
+    }
+
+    .about .about__container img{
+        width: 200px;
+        height: 112px;
+    }
+
+}

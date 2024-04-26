@@ -1,0 +1,129 @@
+/* @media (max-width: 833px){ */
+/* Modo mobile */
+.skills {
+    width: auto;
+    /* background-color: cornflowerblue; */
+    /* padding: 15px; */
+    align-items: center;
+}
+
+.skills .skills__title{
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.skills .skills__line{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills .skills__line .skills__box {
+    width: 50%;
+    display: flex;
+    background-color: #FFFFFF;
+    /* border-color: chartreuse; */
+    width: 130px;
+    height: 80px;
+    padding: 10px;
+    align-items: flex-end;
+    /* justify-content: space-around; */
+    /* gap: 50px; */
+}
+
+.skills .skills__line .skills__box .skills__box__list .skills__img.skills__name{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 16px;
+    gap: 10px;
+    /* padding: 10px; */
+    
+}
+
+/* .formcontato{
+    display: none;
+}
+
+.experience{
+    display: none;
+} */
+/* } */
+
+@media (min-width: 834px) and (max-width: 1439px){
+
+    .skills .skills__title{
+        text-align: center;
+        padding: 15px;
+        font-size: 22px;
+    }
+
+    .skills .skills__line{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .skills .skills__line .skills__box {
+        display: flex;
+        background-color: #FFFFFF;
+        /* border-color: chartreuse; */
+        width: 240px;
+        height: 118px;
+        padding: 10px;
+        align-items: flex-end;
+        /* justify-content: space-around; */
+        /* gap: 50px; */
+    }
+
+}
+
+@media (min-width:1440px){
+
+    .skills{
+        width: auto;
+        padding: 15px 10%;
+    }
+
+    .skills .skills__title{
+        text-align: center;
+        padding: 15px;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .skills .skills__line{
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        justify-content: center;
+        gap: 40px;
+        /* justify-content: space-between;*/
+    }
+
+    .skills .skills__line .skills__box {
+        display: flex;
+        background-color: #FFFFFF;
+        width: 16.66%6;
+        height: 100px;
+        /* padding: 10px; */
+        /* align-items: flex-end; */
+        justify-content: space-around;
+        /* gap: 50px; */
+    }
+
+    .skills .skills__line{
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
