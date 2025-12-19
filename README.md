@@ -1,23 +1,65 @@
-# Challenge ONE | Front End -  Portafolio
+# 🌱 Portafolio Web — Primer Proyecto Front-End
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
-</p>
+📅 **Fecha de creación:** 26 de abril de 2024  
+🎓 **Programa:** Reto Alura Latam ONE  
 
-
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
 ---
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
 
-### Analisando el repositorio!
+## 📌 Descripción
+
+Este proyecto corresponde a mi **primer portafolio web**, desarrollado el **26 de abril de 2024** como parte del **Reto de Alura Latam ONE**.
+
+El objetivo principal fue aplicar los **fundamentos del desarrollo web front-end**, construyendo una página web estática para presentar información personal, habilidades y primeros proyectos, utilizando tecnologías base del ecosistema web.
+
+Este repositorio representa el **punto de inicio de mi camino como desarrollador**, y sirve como referencia clara de mi **evolución técnica y profesional** a lo largo del tiempo.
+
 ---
-### Este es el repositorio base de nuestro proyecto, acá tendrás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹validacion.js: Documento vacío dónde vas a desarrollar tu lógica de programación para validar formularios usando Javascript.
 
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
-</p>
+## 🛠️ Tecnologías utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- Bootstrap  
+- Git & GitHub  
+
+---
+
+## ✨ Funcionalidades
+
+- Estructura semántica en HTML
+- Estilos personalizados con CSS y Bootstrap
+- Diseño responsive
+- Secciones informativas y de contacto
+- Interactividad básica con JavaScript
+
+---
+
+## 🎯 Objetivo del proyecto
+
+- Comprender la estructura básica de un sitio web
+- Practicar los fundamentos del desarrollo front-end
+- Crear un primer portafolio personal
+- Iniciar el uso de Git y GitHub para control de versiones
+
+---
+
+## 📈 Evolución
+
+Este proyecto forma parte de una **línea cronológica de aprendizaje**.  
+Los proyectos posteriores muestran una progresión hacia:
+
+- JavaScript avanzado
+- React
+- Node.js y Express
+- Autenticación y consumo de APIs
+- Despliegue en producción
+
+---
+
+## 👤 Autor
+
+**Eduardo Amaya**  
+Desarrollador Front-End Junior  
+
+GitHub: https://github.com/ea0627
